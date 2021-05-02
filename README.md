@@ -1,3 +1,3 @@
 # PongGamepP5JS
 A Pong game made with the P5.js editor. 
-I added only the sketch.js. You can open to see it working on https://editor.p5js.org/ .
+For executing this code you can use the P5.js editor or execute the index.html with vscode live server.
