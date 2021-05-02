@@ -1,16 +1,16 @@
-window.alert("Use the keys 'W' and 'S' to control the left player. And the 'UP_ARROW' and 'DOWN_ARROW' to control the right player.\nYou must click on the game screen to start playing it.");
+window.alert("Use the keys 'W' and 'S' to control the left player. And the 'UP_ARROW' and 'DOWN_ARROW' to control the right player.\nIf you are running this on P5.js editor, click on the game screen to start playing it.");
 
 var difficult = Number(window.prompt("How difficult will the game be? Enter a number.\nI recommend '5'."));
 
-var CanvasWidth = 750;
-var CanvasHeight = 500;
+var CanvasWidth = window.innerWidth;
+var CanvasHeight = window.innerHeight;
 
 var boardColor = 'black';
 var ballColor = 'white';
 var racketColor = 'white';
 
 var RacketW = 10;
-var Racket;
+var RacketH;
 var RacketSpeed = 5;
 
 if(difficult > 1){
